@@ -1,5 +1,6 @@
 def find_min_in_nested_arrays(src)
   minimums = []
+  
   #iterate through days
   src.each  
   {|x|
