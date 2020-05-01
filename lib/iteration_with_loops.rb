@@ -11,7 +11,7 @@ def find_min_in_nested_arrays(src)
         min = y   #assign any lesser value to new min 
       end
     }
-    minimums.push(min)  #
+    minimums.push(min)  #push new min to new array before next day iteration 
   }
   
 
