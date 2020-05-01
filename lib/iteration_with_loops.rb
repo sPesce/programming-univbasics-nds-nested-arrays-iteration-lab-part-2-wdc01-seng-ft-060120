@@ -1,7 +1,7 @@
 def find_min_in_nested_arrays(src)
   minimums = []
-  
-  src.each  #iterate through days
+  #iterate through days
+  src.each  
   {|x|
     min = 999 #new minimum after each day is iterated 
     
