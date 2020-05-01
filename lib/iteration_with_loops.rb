@@ -1,5 +1,5 @@
 def find_min_in_nested_arrays(src)
-  mininums = []
+  min_arr = []
   
   #iterate through days
   src.each{|x|
@@ -10,8 +10,8 @@ def find_min_in_nested_arrays(src)
         min = y   #assign any lesser value to new min 
       end
     }
-    minimums.push(min)  #push new min to new array before next day iteration 
+    min_arr.push(min)  #push new min to new array before next day iteration 
   }
-  minumums
+  min_arr
 
 end
